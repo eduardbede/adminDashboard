@@ -290,3 +290,39 @@
    height: 5vh;
    border-radius: 50%;
 }
+
+@media (max-width: 576px){
+
+    .container{
+        display: block;
+    }
+    .header{
+        display: block;
+    }
+    .main{
+        display: block;
+    }
+    
+    .header > div:nth-child(2) {
+        justify-content: flex-start;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .header > div:nth-child(3) {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding-left: 0px;
+        margin-bottom: 20px;
+    }
+    .header > div:nth-child(4) {
+        display: flex;
+        gap: 1em;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 0px 10px;
+    }
+    .header > div:nth-child(4) button {
+        height: 30px;
+    }
+     }
